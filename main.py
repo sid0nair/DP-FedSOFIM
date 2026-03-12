@@ -95,7 +95,7 @@ Example usage:
         help="Number of federated communication rounds"
     )
     fed_group.add_argument(
-        "--local_iterations", type=int, default=5,
+        "--local_iterations", type=int, default=1,
         help="Local gradient computations per client per round"
     )
     fed_group.add_argument(
